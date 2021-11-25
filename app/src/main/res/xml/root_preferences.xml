@@ -1,35 +1,27 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <PreferenceCategory app:title="@string/messages_header">
-
+    <PreferenceCategory app:title="@string/notification_header">
         <EditTextPreference
-            app:key="signature"
-            app:title="@string/signature_title"
+            app:icon="@drawable/circle"
+            app:defaultValue="FoSer"
+            app:key="message"
+            app:title="@string/message_title"
             app:useSimpleSummaryProvider="true" />
 
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
-            app:useSimpleSummaryProvider="true" />
-
+        <CheckBoxPreference
+            app:key="time"
+            app:summary="Yes/No"
+            app:title="@string/reply_title" />
     </PreferenceCategory>
-
     <PreferenceCategory app:title="@string/sync_header">
-
         <SwitchPreferenceCompat
             app:key="sync"
             app:title="@string/sync_title" />
 
         <SwitchPreferenceCompat
             app:dependency="sync"
-            app:key="attachment"
-            app:summaryOff="@string/attachment_summary_off"
-            app:summaryOn="@string/attachment_summary_on"
-            app:title="@string/attachment_title" />
-
+            app:key="double_speed"
+            app:summaryOff="@string/double_speed_summary_off"
+            app:summaryOn="@string/double_speed_summary_on"
+            app:title="@string/double_speed_title" />
     </PreferenceCategory>
-
 </PreferenceScreen>

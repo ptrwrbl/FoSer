@@ -22,6 +22,9 @@
             android:parentActivityName=".MainActivity"
             android:label="@string/settings_name">
         </activity>
+        <service android:name=".MyForegroundService"
+            android:enabled="true">
+        </service>
     </application>
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />

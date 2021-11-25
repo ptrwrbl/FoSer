@@ -9,10 +9,13 @@
     <string name="button_start">Start</string>
     <string name="button_restart">Restart</string>
     <string name="button_stop">Stop</string>
+    <string name="info_settings"> Service settings: </string>
 
     <!-- Foreground service -->
     <string name="service_title">FoSer!</string>
     <string name="service_initial_info">Service is just running...</string>
+    <string name="service_initial_settings">Settings...</string>
+
     <!-- Settings Activity Title -->
     <string name="settings_name">Settings</string>
 
@@ -23,20 +26,17 @@
     <!-- Settings Activity Title -->
     <string name="activity_settings_title">Settings</string>
 
-    <!-- Settings Activity Title -->
-    <string name="title_activity_settings">SettingsActivity</string>
-
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <string name="notification_header"> Notification information</string>
+    <string name="sync_header">Synchronization</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
+    <string name="message_title">Message to show</string>
+    <string name="reply_title">Display counter</string>
 
     <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="sync_title">Work periodicly</string>
+    <string name="double_speed_title">Double speed</string>
+    <string name="double_speed_summary_on">Double working frequency</string>
+    <string name="double_speed_summary_off">Standard operating frequency</string>
 </resources>
